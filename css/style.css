@@ -21,6 +21,7 @@ body{
 }
 menu{
     padding: 20px;
+    margin-bottom: 50px;
 }
 .main-nav{
     position: relative;
@@ -36,15 +37,50 @@ nav ul li a{
     margin: 0 30px;
 }
 menu button{
+    position: relative;
+    top: 50%;
+    right: -15%;
+}
+button{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.white-btn{
     color: black;
     background-color: white;
-    height: 30px;
-    width: 70px;
+    padding: 10px 20px;
     border: 0px;
     border-radius: 40px;
     font-weight: 700;
     text-align: center;
-    position: relative;
-    top: 50%;
-    right: -15%;
+}
+.black-btn{
+    color: white;
+    background-color: #23272a;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+/* Sections */
+.welcome{
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* Text */
+.white-txt{
+    color: white;
+    margin-bottom: 40px;
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+p{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
 }
