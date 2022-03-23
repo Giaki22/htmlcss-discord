@@ -71,12 +71,25 @@ button{
     margin: 0 auto;
     margin-bottom: 300px;
 }
-img{
+.chat img{
     width: calc(50%-4px);
 }
 .txt{
     display: inline-block;
     width: 50%;
+}
+.chat{
+    margin-bottom: 100px;
+}
+.workaround{
+    width: 150%;
+    position: relative;
+    left: -30%;
+    top: 0;
+}
+.voicechat{
+    background-color: #f6f6f6;
+    margin-bottom: 100px;
 }
 /* Text */
 .white-txt{
