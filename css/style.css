@@ -87,12 +87,15 @@ button{
     left: -30%;
     top: 0;
 }
-.voicechat{
+.voicechat, .videochat{
     background-color: #f6f6f6;
     margin-bottom: 300px;
 }
 .community{
     margin-bottom: 300px;
+}
+.videochat img{
+    width: 100%;
 }
 /* Text */
 .white-txt{
