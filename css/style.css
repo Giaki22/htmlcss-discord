@@ -79,7 +79,7 @@ button{
     width: 50%;
 }
 .chat{
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 .workaround{
     width: 150%;
@@ -89,7 +89,10 @@ button{
 }
 .voicechat{
     background-color: #f6f6f6;
-    margin-bottom: 100px;
+    margin-bottom: 300px;
+}
+.community{
+    margin-bottom: 300px;
 }
 /* Text */
 .white-txt{
